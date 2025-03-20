@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Página do Perfil do Aluno</title>
+
+</head>
+<body>
+    <h1>Página do Perfil do Aluno</h1>
+
+    <p>Nome aluno: Gabriel Arthur Marcos Verlangieri</p>
+
+    <p> RA: 12413726</p>
+
+    <p>Curso e período atual:Análise e Desenvolvimento de Sistemas 3ºPeríodo</p>
+
+    <p>Endereço Completo: Alphaville Lagoa dos Ingleses</p>
+
+    <p>Email: gabriel.arthur1998@hotmail.com</p>
+
+    <img src="Gabriel cartão de visita.png"></img>
+    <p>Gabriel Verlangieri</p>
+
+    <p>UCS já cursadas:
+        <ul>
+           <li>
+            Ambientes Computacionais e Conectividade
+           </li>
+
+           <li>
+            Modelagem de Software
+           </li>
+
+           <li>
+            Programação de Unidades Computacionais
+           </li>
+
+           <li>
+            Sistemas |Computacionais e Segurança
+           </li>
+      </ul>
+    </p>
+
+    <p>Breve descrição de seu perfil pessoal (Hobbies, Família, esportes etc.)</p>
+    <ul>
+        <li>
+            Hobbies: Academia, jogar video game, programar
+        </li>
+
+        <li>
+             Família: Filho único, moro com meus pais
+        </li>
+
+        <li>
+            Esportes: Tênis e Natação
+        </li>
+    </ul>
+
+    <p>Breve descrição de seu perfil professional/acadêmico.</p>
+
+    <ul>
+        <li>
+            Sou formado em Direito pela faculdades Milton Campos e trabalho como Gerente Comercial na Metal Graphite Representações LTDA. Atualmente, curso Análise e Desenvolvimento de SIstemas
+        </li>
+    </ul>
+
+    <p>Link para seu LinkedIn e/ou outras redes sociais que queira incluir.</p>
+
+    <a href="www.linkedin.com/in/gabriel-verlangieri-98a894233">www.linkedin.com/in/gabriel-verlangieri-98a894233</a>
+     
+</body>
+</html>
