@@ -3,72 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase1 Projeto Usabilidade, Desenvolvimento WEB, Mobile e Jogos</title>
 
-    <title>Página do Perfil do Aluno</title>
+    <style>
+          .header {
+            background-color: yellow;
+            text-align: center;
+          }
+
+          .header_titulo{
+            padding: 10px;
+          }
+
+          .hero {
+            background-color: green;
+          }
+
+          .RA {
+            padding: 10px;
+            width: 80%;
+
+          }
+
+          .hero-content{
+            margin: 10px;
+            color: black;
+          }
+
+          .hero-content h3{
+            margin: 10px;
+
+          }
+
+          .hero-content1{
+            margin: 10px;
+            background-color: orange;
+          }
+   
+
+
+    </style>
 
 </head>
+
 <body>
-    <h1>Página do Perfil do Aluno</h1>
 
-    <p>Nome aluno: Gabriel Arthur Marcos Verlangieri</p>
+    <header class="header">
+        <h1 class="header_titulo"></h1>
+        <h1> Página do Aluno </h1>
+    </header>
+         
+    <div class="hero">
+        <h3> Nome Completo </h3>
+        <p> Gabriel Arthur Marcos Verlangieri </p>
+    </div>
 
-    <p> RA: 12413726</p>
+    <div class="RA">
+        <h3> RA </h3>
+        <p> 12413726 </p>
+    </div>
 
-    <p>Curso e período atual:Análise e Desenvolvimento de Sistemas 3ºPeríodo</p>
+    <div class="hero-content">
+        <h3> Curso e Período Atual </h3>
+        <p> Análise e Desenvolvimento de Sistemas- 3° Período</p>
+    </div>
 
-    <p>Endereço Completo: Alphaville Lagoa dos Ingleses</p>
+    <div class="hero-content1">
+        <h3> Endereço Completo </h3>
+        <p> Rua Padre Luís Vieira- Alphaville Lagoa dos Ingleses </p>
+    </div>
 
-    <p>Email: gabriel.arthur1998@hotmail.com</p>
+    <div class="hero-content2">
+        <h3> E-mail </h3>
+        <p> gabriel.arthur1998@hotmail.com </p>
+    </div>
 
-    <img src="Gabriel cartão de visita.png"></img>
-    <p>Gabriel Verlangieri</p>
+    <section class="hero-content3">
+        <h3> Foto de Perfil </h3>
+        <img src="c:\Users\user\Pictures\Imagem do WhatsApp de 2025-02-27 à(s) 10.36.53_ba566fc2.jpg"></img>
+        <p> Foto de Gabriel Verlangieri </p>
 
-    <p>UCS já cursadas:
+
+    </div>
+    </section>
+
+    <div class="hero-content4">
+        <h3> UCS Cursadas </h3>
         <ul>
-           <li>
-            Ambientes Computacionais e Conectividade
-           </li>
+            <li>
+                Ambientes Computacionais
+            </li>
 
-           <li>
-            Modelagem de Software
-           </li>
+            <li>
+                Modelagem de Software
+            </li>
 
-           <li>
-            Programação de Unidades Computacionais
-           </li>
+            <li>
+                Programação de Unidades Computacionais
+            </li>
 
-           <li>
-            Sistemas |Computacionais e Segurança
-           </li>
-      </ul>
-    </p>
+            <li>
+                Sistemas Computacionais e Segurança
+            </li>
+        </ul>
+    </div>
 
-    <p>Breve descrição de seu perfil pessoal (Hobbies, Família, esportes etc.)</p>
-    <ul>
-        <li>
-            Hobbies: Academia, jogar video game, programar
-        </li>
+    <div class="hero-content5">
+        <h3> Breve Descrição de seu perfil pessoal(Hobbies,Família,Esportes,etc) </h3>
+        <ul>
+            <li>
+                 Hobbies: Academia, jogar video game, programar
+            </li>
 
-        <li>
-             Família: Filho único, moro com meus pais
-        </li>
+            <li>
+                Família: Filho único, moro com meus pais
+            </li>
 
-        <li>
-            Esportes: Tênis e Natação
-        </li>
-    </ul>
+            <li>
+                Esportes: Tênis e Musculação
+            </li>
+        </ul>
+    </div>
 
-    <p>Breve descrição de seu perfil professional/acadêmico.</p>
+    <div class="hero-content6">
+        <h3> Breve Descrição de seu perfil professional e acadêmico </h3>
+        <p> Sou formado em Direito pela faculdades Milton Campos e atualmente faço curso de Análise e Desenvolvimento de Sistemas. Trabalho atualmente na empresa Metal Graphite no setor de vendas.</p>
+    </div>
 
-    <ul>
-        <li>
-            Sou formado em Direito pela faculdades Milton Campos e trabalho como Gerente Comercial na Metal Graphite Representações LTDA. Atualmente, curso Análise e Desenvolvimento de SIstemas
-        </li>
-    </ul>
+    <div class="Link">
+        <h3> Link para seu Linkedin e/ou outras redes sociais que queira incluir </h3>
+        <a href="www.linkedin.com/in/gabriel-verlangieri-98a894233">www.linkedin.com/in/gabriel-verlangieri-98a894233</a>
+    </div>
+<main>
+    <section class="fotos_commerce">
+        <article class="card">
+            <img src="c:\Users\user\Pictures\Imagem do WhatsApp de 2025-02-27 à(s) 10.33.33_9a826c18.jpg">
+            <p> Foto 1</p>
+        </article>
+            
+    </section>
+</main>
 
-    <p>Link para seu LinkedIn e/ou outras redes sociais que queira incluir.</p>
+<script>
 
-    <a href="www.linkedin.com/in/gabriel-verlangieri-98a894233">www.linkedin.com/in/gabriel-verlangieri-98a894233</a>
-     
+    function changePhoto(src) {
+    document.getElementById('main-photo').src = src;
+}
+
+
+function adicionarUC() {
+    const novaUC = prompt("Digite o nome da nova UC:");
+}
+
+function adicionarDescricao() {
+    const texto = document.getElementById("nova-descricao").value;
+    if (texto.trim() !== "") {
+        const p = document.createElement("p");
+        p.textContent = texto;
+        document.getElementById("descricao-extra").appendChild(p);
+        document.getElementById("nova-descricao").value = "";
+
+
+</script>
+
+    
 </body>
-</html>
+</html>  
+
+
+
+     
